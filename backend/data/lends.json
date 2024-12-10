@@ -1,0 +1,38 @@
+[
+  {
+    "id": "101",
+    "firstname": "Usman",
+    "lastname": "abba",
+    "email": "usmanabba@gmail.com"
+  },
+  {
+    "id": "102",
+    "firstname": "Abdul",
+    "lastname": "Usman",
+    "email": "Usmanabdul@gmail.com"
+  },
+  {
+    "id": "1000",
+    "firstname": "Abdullahi",
+    "lastname": "Halilu",
+    "email": "abdullahikhalilmuaz@gmail.com"
+  },
+  {
+    "id": "103",
+    "firstname": "Random",
+    "lastname": "User",
+    "email": "randomUser@gmail.com"
+  },
+  {
+    "id": "101",
+    "firstname": "user",
+    "lastname": "name",
+    "email": "email@email.com"
+  },
+  {
+    "id": "101",
+    "firstname": "user one",
+    "lastname": "name on e",
+    "email": "emaic@one.com"
+  }
+]

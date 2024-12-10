@@ -1,0 +1,152 @@
+.request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.request h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-left: 10px solid rgb(150, 0, 150);
+  padding: 5px 0px 5px 10px;
+  border-radius: 5px;
+}
+
+.make {
+  width: 79%;
+  height: 90%;
+  margin: 6px;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.make h3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-left: 10px solid rgb(150, 0, 150);
+  padding: 5px 0px 5px 10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 99.1%;
+  overflow: auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  margin-top: -120%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+form input {
+  padding: 10px 30px;
+  height: 40px;
+}
+.container .req {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 50%;
+  height: 100%;
+  box-shadow: 0px 0px 2px rgb(150, 0, 150);
+  border-radius: inherit;
+  margin: 2px;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  /* margin-top: 92%; */
+  border-top: 1px solid gray;
+}
+
+.form input {
+  width: 100%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+
+.form button {
+  padding: 8px 20px;
+  border: none;
+  background: rgb(150, 0, 150);
+  color: white;
+  border-radius: 5px;
+}
+
+.container .req .contain {
+  width: 100%;
+  height: 91%;
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container .req .contain::-webkit-scrollbar {
+  display: none;
+}
+.container .res {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  box-shadow: 0px 0px 2px rgb(150, 0, 150);
+  border-radius: inherit;
+  margin: 2px;
+  overflow: auto;
+  padding: 20px;
+}
+.res::-webkit-scrollbar {
+  display: none;
+}
+
+.res ul {
+  list-style: none;
+}
+
+.res ul li {
+  font-family: cursive;
+  border-left: 6px solid rgb(150, 0, 150);
+  padding: 5px;
+  margin-top: 10px;
+  color: rgb(150, 0, 150);
+  font-size: 16px;
+}
+
+.res ul li ul li {
+  border: none;
+  color: black;
+}
+
+.res div {
+  overflow: auto;
+}
+
+.res div::-webkit-scrollbar {
+  display: none;
+}

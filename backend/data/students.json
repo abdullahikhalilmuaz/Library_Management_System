@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "firstname": "student",
+    "lastname": "panel",
+    "email": "student@email.com",
+    "password": "password"
+  },
+  {
+    "id": 102,
+    "firstname": "Abdullahi",
+    "lastname": "Halilu",
+    "email": "abdullahikhalilmuaz@gmail.com",
+    "password": "legend"
+  },
+  {
+    "id": 103,
+    "firstname": "Abdurrafi'u ",
+    "lastname": "Isah",
+    "email": "abdullahikhalilmuaz@gmail.com",
+    "password": "Password"
+  }
+]

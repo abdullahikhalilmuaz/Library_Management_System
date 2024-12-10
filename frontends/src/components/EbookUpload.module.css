@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.container form {
+  width: 100%;
+}
+
+.container form input {
+  width: 70%;
+}
+
+.container form input[type="submit"] {
+  background-color: red;
+  margin-right: 100px;
+}
+
+
+@media only screen and (max-width: 650px) {
+  
+}

@@ -1,0 +1,77 @@
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  flex-direction: row;
+  top: 55px;
+  height: 60px;
+  left: 20.8%;
+  right: 5px;
+  box-shadow: 0px 0px 4px rgba(150, 0, 150);
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  z-index: 10;
+}
+
+.header .navs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  z-index: inherit;
+  overflow-x: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.navs div {
+  width: 300px;
+  background-color: rgba(150, 0, 150);
+  color: white;
+  border-radius: 10px;
+  margin: 0px 20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-shrink: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.header button {
+  padding: 8px 10px;
+  border: none;
+  margin: 0px 5px 0px 5px;
+  background-color: rgba(150, 0, 150);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.main {
+  position: absolute;
+  top: 120px;
+  left: 20.8%;
+  right: 3px;
+  bottom: 10px;
+  z-index: inherit;
+  border-radius: 10px;
+  font-family: cursive;
+  padding: 20px;
+}
+@media screen and (max-width: 770px) {
+  .header {
+    left: 3px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .main {
+    left: 3px;
+  }
+}

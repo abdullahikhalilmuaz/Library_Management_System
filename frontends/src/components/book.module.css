@@ -1,0 +1,184 @@
+.book {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+}
+
+.book h3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-left: 10px solid rgb(150, 0, 150);
+  padding: 5px 0px 5px 10px;
+  border-radius: 5px;
+  margin-top: -40px;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 85%;
+  overflow: auto;
+  padding: 30px;
+  box-sizing: border-box;
+  border-top: 0.5px solid gray;
+}
+
+.books::-webkit-scrollbar {
+  display: none;
+}
+
+.bookcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 330px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.bookcontainer .image {
+  width: 75%;
+  height: 60%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+}
+
+.bookcontainer .details {
+  width: 100%;
+  height: 35%;
+  border-top: 0.9px solid rgba(0, 0, 0, 0.5);
+}
+
+.details table {
+  text-align: left;
+  margin: 10px 10px 3px 10px;
+}
+
+.details table th {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(46, 44, 44);
+}
+
+.details table td {
+  font-size: 10px;
+  color: rgb(49, 47, 47);
+  font-family: cursive;
+}
+.details button {
+  padding: 6px 10px;
+  border: none;
+  background-color: rgba(150, 0, 150);
+  color: white;
+  border-radius: 3px;
+  margin: 0px 40%;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.book .search {
+  width: 40%;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+@media only screen and (max-width: 1100px) {
+  .books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+  .bookcontainer {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .book {
+    width: 100%;
+  }
+  .book h3 {
+    margin-top: 10px;
+  }
+  .books {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+
+  .bookcontainer {
+    width: 200px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .book {
+    width: 100%;
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+
+  .bookcontainer {
+    width: 200px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .book {
+    width: 100%;
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+  .bookcontainer {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .book {
+    width: 100%;
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+  .bookcontainer {
+    margin-top: 20px;
+  }
+}

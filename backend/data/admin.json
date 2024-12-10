@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "firstname": "admin",
+    "lastname": "panel",
+    "email": "admin@admin.com",
+    "password": "password"
+  },
+  {
+    "id": 101,
+    "firstname": "adminone",
+    "lastname": "panelone",
+    "email": "admin@adminone.com",
+    "password": "passwordone"
+  }
+]

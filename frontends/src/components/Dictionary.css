@@ -1,0 +1,146 @@
+.main {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 120px;
+  left: 20.8%;
+  right: 3px;
+  bottom: 10px;
+  z-index: inherit;
+  border-radius: 10px;
+  font-family: cursive;
+  padding: 5px;
+  overflow: auto;
+  background-color: rgb(150, 0, 150, 0.3);
+}
+
+.mainContainer {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0px 0px 4px rgb(150, 0, 150);
+  overflow: auto;
+}
+
+.mainContainer h1 {
+  font-size: 2red;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(150, 0, 150);
+}
+
+.mainContainer form {
+  margin-top: 1.5rem;
+}
+
+.mainContainer form .row {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mainContainer form .row .voice-icons {
+  background-color: white;
+  margin-top: 15px;
+  border: 1px solid rgb(150, 0, 150, 0.3);
+  border-radius: 10px;
+  /* border-top: none; */
+  /* border-bottom: 10px; */
+  text-align: right;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.mainContainer form .row .voice-icons .select-voices {
+  flex: 1;
+}
+
+.mainContainer form .row .voice-icons .volume-high {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.mainContainer form .row .voice-icons .volume-high.speak {
+  color: rgb(150, 0, 150);
+}
+.mainContainer form textarea,
+.mainContainer form select {
+  width: 95%;
+  margin: 0px auto;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.mainContainer form textarea {
+  border: 1px solid rgb(150, 0, 150);
+  padding: 3px 5px;
+  margin-bottom: 12px;
+  resize: none;
+}
+
+.mainContainer form select {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.mainContainer ul {
+  list-style: none;
+  margin-top: 5px;
+  font-size: 13px;
+  max-height: 250px;
+  overflow: scroll;
+}
+
+.mainContainer ul .world {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.mainContainer ul .world span {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.mainContainer ul .contain {
+  margin-top: 7px;
+}
+
+.mainContainer ul .contain .details {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-top: 10px;
+  padding: 5px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgb(150, 0, 150);
+}
+
+.mainContainer .contain ul .contain .details p {
+  opacity: 0.6;
+}
+
+.mainContainer ul .contain .synonyms span {
+  opacity: 0.6;
+  border-bottom: 1px dotted rgb(150, 0, 150);
+  cursor: pointer;
+}
+
+.mainContainer ul .contain .synonyms span:hover {
+  color: rgb(150, 0, 150);
+  font-weight: 900;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 770px) {
+  .main {
+    left: 3px;
+  }
+}

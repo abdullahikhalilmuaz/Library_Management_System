@@ -1,0 +1,61 @@
+.about {
+  width: 80%;
+  height: 100%;
+}
+
+.about h3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-left: 5px solid rgb(150, 0, 150);
+  padding: 5px 0px 5px 10px;
+  margin: 30px 30px;
+  border-radius: 5px;
+}
+
+.school {
+  height: 76.2%;
+  border-radius: 10px;
+  padding: 30px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.school h4 {
+  font-family: cursive;
+  font-weight: 500;
+  text-decoration: underline;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(31, 29, 29);
+}
+
+.school p {
+  width: 30%;
+  text-align: justify;
+  font-family: cursive;
+  border-left: 5px solid rgb(150, 0, 150);
+  padding: 20px;
+  color: rgb(32, 31, 31);
+  box-sizing: border-box;
+}
+
+ul {
+  /* list-style: ; */
+  margin: 0px 50px;
+}
+.school ul li {
+  line-height: 30px;
+  font-family: cursive;
+  font-size: 12px;
+  border-left: 3px solid;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .school p {
+    width: 100%;
+    margin-left: 30px;
+  }
+}

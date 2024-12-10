@@ -1,0 +1,17 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.contact h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-left: 10px solid rgb(150, 0, 150);
+  padding: 5px 0px 5px 10px;
+  border-radius: 5px;
+}

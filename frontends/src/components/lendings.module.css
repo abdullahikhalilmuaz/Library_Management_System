@@ -1,0 +1,98 @@
+.lendings {
+  width: 80%;
+  height: 100%;
+}
+.lendings h3 {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: rgb(34, 33, 33);
+  margin: 30px;
+  border-left: 5px solid rgba(150, 0, 150);
+  padding: 5px 0 5px 10px;
+  border-radius: 5px;
+}
+
+.lendings .header {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 4px rgba(150, 0, 150);
+  top: 130px;
+  left: 20.5%;
+  right: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.header button {
+  padding: 8px 20px;
+  border: none;
+  background-color: rgba(150, 0, 150);
+  color: white;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  margin: 0px 10px 0px 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.header button:hover {
+  transform: scale(1.1);
+}
+.lendings .lendsDetailsTable {
+  position: absolute;
+  top: 190px;
+  left: 20.5%;
+  right: 5px;
+  bottom: 10px;
+  border: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.lendsDetailsTable table {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+}
+
+.lendsDetailsTable th {
+  background-color: rgba(150, 0, 150);
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.lendsDetailsTable tr {
+  color: rgb(32, 31, 31);
+  font-size: 14px;
+  height: 40px;
+  font-weight: 400;
+}
+.lendsDetailsTable tr:nth-child(even) {
+  background-color: rgba(150, 0, 150, 0.3);
+  padding: 10px;
+  height: 40px;
+  color: white;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.search {
+  width: 40%;
+  margin: 0px auto;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 4px rgba(150, 0, 150);
+  color: rgba(150, 0, 150);
+  outline: none;
+}

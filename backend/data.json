@@ -1,0 +1,70 @@
+[
+  {
+    "books": [
+      {
+        "id": 101,
+        "bookname": "Something from tifanny",
+        "Author": "Mickey Down.k",
+        "genre": "genre",
+        "pages": 1001,
+        "available": false
+      },
+      {
+        "id": 102,
+        "bookname": "Elon Musk Autobiography",
+        "Author": "Elon Musk",
+        "genre": "genre",
+        "pages": 500,
+        "available": true
+      },
+      {
+        "id": 103,
+        "bookname": "Diary of a Wimpy Kid",
+        "Author": "Jeff Kinney",
+        "genre": "genre",
+        "pages": 500,
+        "available": true
+      },
+      {
+        "id": 104,
+        "bookname": "I'd Rather Die Than To Die Poor",
+        "Author": "James Hardley",
+        "genre": "genre",
+        "pages": 800,
+        "available": false
+      },
+      {
+        "id": 105,
+        "booknmae": "Shootgun wedding",
+        "Author": "Bishop B.Jordan",
+        "genre": "Written",
+        "pages": 500,
+        "available": true
+      },
+      {
+        "id": 106,
+        "booknmae": "Someone Borrowed",
+        "Author": "Micheal B.Jordan",
+        "genre": "Real life",
+        "pages": 800,
+        "available": true
+      },
+      {
+        "id": 107,
+        "booknmae": "A Pocket Full or RYE",
+        "Author": "James Hardley",
+        "genre": "Chage",
+        "pages": 350,
+        "available": true
+      },
+      {
+        "id": 108,
+        "booknmae": "MarkZukerberg Autobiography",
+        "Author": "MarkZukerberg",
+        "genre": "Written",
+        "pages": 750,
+        "available": true
+      }
+    ]
+  }
+]
